@@ -9,11 +9,13 @@
     height:700px;
     background-color: black;
 } */
-body {
-    margin: 4% 10%;
+
+.container {
+    width: 80%;
+    margin: 30px auto;
 }
 
-#top-header {
+nav {
     height: 80px;
     background-color: #E579E6;
     margin-bottom: 30px;
@@ -36,7 +38,7 @@ main::after {
 	clear: both;
 }
 
-div {
+div.top-main {
     height: 50px;
     background-color: #ABCFE7;
     margin-bottom: 20px;
